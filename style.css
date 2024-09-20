@@ -31,6 +31,8 @@ div.red {
     border-width: .3em;
     border-style: solid;
     border-color: rgb(233, 224, 224);
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 div.black {
     background-color: #181717;
@@ -38,6 +40,8 @@ div.black {
     border-width: .3em;
     border-style: solid;
     border-color: rgb(187, 10, 10);
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 div.white {
     background-color: white;
@@ -45,6 +49,8 @@ div.white {
     border-width: .3em;
     border-style: solid;
     border-color: black;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 /*IDs*/
@@ -107,4 +113,25 @@ div.white {
     margin-left: 320px;
     margin-bottom: 20px;
     padding-left: 1em;
+}
+
+#jok {
+    margin-left: -60px;
+   border-radius: 400px;
+}
+
+#ryu {
+    margin-left: -60px;
+    border-radius: 400px;
+}
+
+#ann {
+    margin-left: -60px;
+    border-radius: 400px;
+}
+
+
+#mona {
+    margin-left: -60px;
+    border-radius: 400px;
 }
